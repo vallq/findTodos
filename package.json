@@ -1,0 +1,21 @@
+{
+  "name": "findtodos",
+  "version": "1.0.0",
+  "description": "A small utility that prints the paths of files that have at least 1 TODO in them.",
+  "main": "findTodos.js",
+  "scripts": {
+    "test": "jest --config ./jest.config.json",
+    "test:watch": "npm run test --watch"
+  },
+  "keywords": [
+    "TODO",
+    "search",
+    "parser",
+    "nodejs"
+  ],
+  "author": "vallq",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.2.1"
+  }
+}
