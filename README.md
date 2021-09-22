@@ -10,7 +10,28 @@ git clone <repository link>
 cd findTodos
 npm install //installs related dependencies
 ```
+
+**Running the Script**
+```
+cd /path/to/desired/directory
+node /path/to/parseDirectory.js
+```
+
+Expected Output
+```
+user:~/path/to/findTodos $ cd tests/test1
+user:~/path/to/findTodos/tests/test1 $ node ../../parseDirectory.js
+findTodos/tests/test1/function1.js
+findTodos/tests/test1/subFolder1/Apple.js
+```
+
 **Tests**
+Regular Testing
 ```
 npm run test
+```
+
+Test Coverage
+```
+npm run test:coverage
 ```
